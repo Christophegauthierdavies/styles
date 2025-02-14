@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" and="text" et-al-min="4" et-al-use-first="1" initialize="false" default-locale="fr-CA">
   <info>
-    <title>Biblio_assnat</title>
-    <title-short>UQAM - litterature</title-short>
+    <title>Biblio_assnat_test</title>
+    <title-short>Biblio_assnat_test</title-short>
     <id>http://www.zotero.org/styles/universite-du-quebec-a-montreal-etudes-litteraires-et-semiologie</id>
-    <link href="http://www.zotero.org/styles/universite-du-quebec-a-montreal-etudes-litteraires-et-semiologie" rel="self"/>
-    <link href="http://www.zotero.org/styles/universite-du-quebec-a-montreal" rel="template"/>
-    <link href="https://litterature.uqam.ca/wp-content/uploads/sites/52/Guide-pre%CC%81sentation-travaux-DEL.pdf" rel="documentation"/>
     <author>
-      <name>Jean-Jacques Rondeau</name>
-      <email>rondeau.jean-jacques@uqam.ca</email>
+      <name>Christophe Gauthier-Davies</name>
+      <email>Christophe.gauthier-davies@assnat.qc.ca</email>
     </author>
     <category citation-format="note"/>
     <category field="humanities"/>
     <category field="literature"/>
-    <summary>Ce style est basé sur les règles décrites dans le document « Présentation et méthodologie : Mémoires et thèses en études littéraires et en sémiologie UQAM (novembre 2010) ».</summary>
+    <summary>Inspiré du style en études littéraires et en sémiologie de UQAM ».</summary>
     <updated>2023-04-15T02:42:41+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
@@ -28,7 +25,7 @@
       <term name="in">dans</term>
       <term name="edition">édition</term>
       <term name="accessed">consulté le</term>
-      <term name="et-al">et al.</term>
+      <term name="et-al">et autres</term>
       <term name="ibid" form="short">ibid</term>
       <term name="issue" form="short">nᵒ</term>
       <term name="collection-number" form="short">nᵒ</term>
@@ -123,7 +120,7 @@
   </macro>
   <macro name="editor-notes">
     <group>
-      <names variable="editor" delimiter=", ">
+      <names variable="editor" delimiter=" ">
         <name and="text" delimiter-precedes-last="never" initialize="false">
           <name-part name="family"/>
         </name>
